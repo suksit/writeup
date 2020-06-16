@@ -18,7 +18,7 @@ The first thing that came to my mind is it must have something to do with DNS re
 
 {{<image src="images/dig.png" caption="`dig` output">}}
 
-And the flag was there! To be honest, I didn't even know what an SPF record is... I looked it up later and found that it's Sender Policy Framework, which is some kind of email authentication method.
+And the flag was there! To be honest, I didn't even know what an SPF record was... I looked it up later and found that it's Sender Policy Framework, which is some kind of email authentication method.
 
 {{<admonition success Flag>}}
 `flag{next_year_i_wont_use_spf}`
