@@ -1,0 +1,36 @@
+baseURL = "http://writeup.suksit.com/"
+languageCode = "en-us"
+title = "9H057 Playground"
+
+theme = "loveit"
+enableEmoji = true
+
+[params]
+  version = "0.2.X"
+  defaultTheme = "dark"
+  [params.footer]
+    hugo = false
+  [params.home.profile]
+    avatarURL = "/android-chrome-512x512.png"
+    title = "9H057 Playground"
+
+[author]
+  name = "9H057"
+  email = ""
+  link = "https://suksit.com/"
+
+[menu]
+  [[menu.main]]
+    identifier = "writeups"
+    name = "Writeups"
+    url = "/writeups"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 2
+
+[markup]
+  [markup.highlight]
+    noClasses = false
