@@ -3,6 +3,7 @@ title: Finsta
 subtitle: 50 Points
 date: 2020-06-14T23:50:00+07:00
 lightgallery: true
+tags: [OSINT]
 ---
 
 {{<image src="images/brief.png" caption="Brief">}}

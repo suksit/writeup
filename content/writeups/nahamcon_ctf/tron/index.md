@@ -3,6 +3,7 @@ title: Tron
 subtitle: 75 Points
 date: 2020-06-14T23:50:00+07:00
 lightgallery: true
+tags: [OSINT]
 ---
 
 {{<image src="images/brief.png" caption="Brief">}}
@@ -23,11 +24,11 @@ The `flagger` repo didn't have anything useful in the commits.
 
 {{<image src="images/github-flagger.png" caption="NahamConTron's `flagger` repo">}}
 
-So I went to the other repo, `dotfiles`. The two latest commits looked very interesting since it's from JohnHammond and NahamConTron.
+I went to the other repo, `dotfiles`. The two latest commits looked very interesting since they're from JohnHammond and NahamConTron.
 
 {{<image src="images/github-dotfiles.png" caption="NahamConTron's `dotfiles` repo">}}
 
-The commit by NahamConTron has nothing special. However, the commit by JohnHammond showed two very interesting things -- An SSH history command along with an OpenSSH private key:
+NahamConTron's commit had nothing special. However, the commit by JohnHammond showed two very interesting things -- A bash history file that showed a `ssh` command along with the server address, username, and port. And the other file contains a OpenSSH private key:
 
 {{<image src="images/johnhammond-commit.png" caption="Commit by JohnHammond">}}
 
