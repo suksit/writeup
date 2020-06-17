@@ -3,6 +3,7 @@ title: Agent 95
 subtitle: 50 Points
 date: 2020-06-15T10:19:53+07:00
 lightgallery: true
+tags: [Web]
 ---
 
 {{<image src="images/brief.png" caption="Brief">}}
