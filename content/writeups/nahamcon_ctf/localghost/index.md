@@ -29,5 +29,5 @@ Now I'm opening the inspector to see the DOM -- nothing interesting. JavaScript 
 {{</admonition>}}
 
 {{<admonition info>}}
-I found out later that you can also solve this by deobfuscating the code in `jquery.jscroll2.js` then you'll get an array named `_0xbcec` at the top of the code. There is a member named `flag` in the array and the one after it is a Base64 encoded string `SkNURntzcG9vb29va3lfZ2hvc3RzX2luX3N0b3JhZ2V9` If you decode the string then you get the flag.
+I found out later that you can also solve this by deobfuscating the code in `jquery.jscroll2.js` then you'll get an array named `_0xbcec`. There is a member named `flag` in the array and the one following it is a Base64 encoded string `SkNURntzcG9vb29va3lfZ2hvc3RzX2luX3N0b3JhZ2V9`. If you decode the string then you get the flag.
 {{</admonition>}}
